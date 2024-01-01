@@ -28,7 +28,7 @@ plt.grid(True)
 plt.show()
 
 
-#Гистограмма
+#Гистограмма результатов забега школьников
 data = np.random.normal(16, 2, 1000)
 plt.hist(data, bins=20, color='red', alpha=0.5)
 plt.xlabel('Время забега')
